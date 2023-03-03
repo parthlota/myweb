@@ -1,0 +1,771 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+.nav1 img {
+    width: 70px;
+}
+
+
+
+.nav2 ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav2 ul li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.banner {
+    /* padding: 100px; */
+}
+
+.row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.baner1 h2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.baner1 p {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.baner1 a {
+    text-decoration: none;
+    color: white;
+    background: #000;
+    padding: 13px 30px;
+    width: 40%;
+}
+
+.headding {
+    padding: 32px 30px;
+    align-items: center;
+    background-color: gold;
+
+}
+
+.content {
+    padding: 100px;
+}
+
+.heading-photo {
+
+    text-align: center;
+    margin: 0;
+
+    /* width: 100%; */
+}
+
+.heading-photo img {
+    width: 100%;
+    height: 600PX;
+    object-position: 20% 10%;
+    /* object-fit: cover; */
+    background-size: contain;
+    background-position: center;
+}
+
+/* section1 */
+.blackboxmain {
+    /* margin: 50px 0; */
+    padding: 100PX 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blackboxmain h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+
+.tvcontent1 {
+    background: #000;
+    color: white;
+    padding: 40px;
+    margin: 50px 0;
+    position: relative;
+}
+
+.tvcontent1::before {
+    position: absolute;
+    content: url(image/Group.png);
+    font-family: "Font Awesome 6 free";
+    
+    left: -58px;
+    top: 13%;
+    background-color: rgb(255, 217, 0);
+    padding: 22px 24px;
+    border-radius: 52px;
+}
+
+.tvcontent2 {
+    background: #000;
+    color: white;
+    padding: 40px;
+    margin: 50px 0;
+    position: relative;
+}
+
+.tvcontent2::before {
+    position: absolute;
+    content: url(image/Group2.png);
+    font-family: "Font Awesome 6 free";
+   
+    left: -58px;
+    top: 13%;
+    background-color: rgb(255, 217, 0);
+    padding: 22px 24px;
+    border-radius: 52px;
+}
+
+.blackbox2 h3 {
+    font-size: 40px;
+    text-align: end;
+    padding: 30px 0;
+}
+
+.tvcontent3 {
+    background: #000;
+    color: white;
+    padding: 40px;
+    margin: 50px 0;
+    position: relative;
+}
+
+.tvcontent3::before {
+    position: absolute;
+    content: url(image/Group3.png);
+    font-family: "Font Awesome 6 free";
+   
+    right: -58px;
+    top: 13%;
+    background-color: rgb(255, 217, 0);
+    padding: 22px 24px;
+    border-radius: 52px;
+}
+
+.tvcontent4 {
+    background: #000;
+    color: white;
+    padding: 40px;
+    margin: 50px 0;
+    position: relative;
+}
+
+.tvcontent4::before {
+    position: absolute;
+    content: url(image/Group4.png);
+    font-family: "Font Awesome 6 free";
+    
+    right: -58px;
+    top: 13%;
+    background-color: rgb(255, 217, 0);
+    padding: 22px 24px;
+    border-radius: 52px;
+}
+
+/* section2 */
+
+.project {
+    padding: 15px 50px;
+    position: relative;
+}
+.project::before {
+    position: absolute;
+    content: "";
+    background-color: #6d6969eb;
+    height: 50%;
+    width: 50%;
+    left: -35%;
+    border-radius: 180px;
+z-index: -1;
+}
+
+
+
+.project h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.project h2::before{
+    position: absolute;
+    content: "";
+    border-bottom: 5px solid gold;
+    bottom: -15px;
+    width: 0;
+transition: 0.5s ease-in-out all;
+}
+
+.project h2:hover:before{
+width: 70%;
+}
+.project h3 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.project p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+.laptopimg img {
+    width: 90%;
+    object-fit: cover;
+}
+
+.teamimg {
+   
+    margin-top: 165px;
+}
+
+.team1{
+    position: relative;
+}
+.team1::before{
+    position: absolute;
+    content: "";
+    background-color: gold;
+    height: 70%;
+    width: 50%;
+    left: 40%;
+    top: 39%;
+    z-index: -1;
+}
+.team1 img {
+    width: 60%;
+    padding: 5px;
+}
+
+.team2 img {
+    width: 60%;
+}
+
+/* section3 */
+
+.bighug{
+    position: relative;
+}
+
+.bighug::before{
+    position: absolute;
+    content: "";
+    background-color: #6d6969eb;
+    height: 50%;
+    width: 30%;
+    left: -10%;
+    z-index: -1;
+
+}
+
+
+
+
+.bighug .photo {
+    padding: 50px;
+}
+
+.hugcontent ul {
+    margin: 20px 0;
+}
+
+.hugcontent ul li {
+    padding: 5px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #000;
+    width: 22%;
+    padding: 10px 20px;
+}
+
+/* section 4 start */
+
+.counter {
+    background: #000;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+.coounter1{
+    padding: 50px 0;
+}
+
+.coounter1:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out all;
+    background-color: gold;
+    
+
+}
+
+.coounter1 {
+    text-align: center;
+    /* width: 95%; */
+    color: white;
+    padding: 50px 0;
+}
+
+
+
+/* section5 */
+.blog {
+    padding: 100px 0;
+}
+
+.lernimg a {
+    text-decoration: none;
+    color: #000;
+
+   
+
+}
+
+.lernimg a:hover{
+    color: gold;
+}
+
+
+
+.lernimg a i {
+    font-family: "Font Awesome 6 free";
+
+}
+
+/* section6 */
+.onlyi a {
+    color: #000;
+}
+
+.onlyi i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+.onlyi i:hover {
+  color: gold;
+}
+
+
+
+.arrow i:hover{
+    color: gold;
+}
+
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.hello img {
+    height: 100%;
+    width: 100%;
+    padding: 150px 10px 0;
+
+    object-fit: cover;
+}
+
+.hello1 img {
+    padding: 0 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* section6 end */
+
+
+/*  section7 */
+
+.anna {
+    background-color: gold;
+    text-align: center;
+    padding: 38px 31em;
+
+}
+
+/* section7 end */
+
+
+/*  section8 */
+.lable img {
+    height: 100%;
+    width: 100%;
+}
+/* section8 end */
+
+
+/* section 9 */
+.cardmain{
+    position: relative;
+}
+.cardmain::before{
+    position: absolute;
+    content: "";
+    background-color: gold;
+    height: 60%;
+    width: 20%;
+    top: -10%;
+    left: -7%;
+    z-index: -1;
+}
+
+.baground {
+    padding: 100px 50px;
+    background-image: url(image/background.png);
+}
+
+.address {
+    /* display: flex; */
+    /* width: 100%; */
+    padding: 100px;
+    padding: 100px;
+    border: 2px solid;
+    /* border: solid; */
+    box-shadow: 4px -2px 13px 2px black;
+}
+
+.address #fname {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+ 
+.address #lname {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+.address #w3review {
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+/* footer */
+.footermain {
+    padding: 70px 20px;
+    width: 100%;
+    color: white;
+    background-color: #000;
+    /* text-align: center; */
+}
+
+.email i {
+    color: gold;
+    margin-right: 5px;
+}
+
+
+
+
+.footermain h3 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.footermain ul li {
+    list-style: none;
+
+}
+
+.contect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contect a {
+    /* margin-top: 5px; */
+    padding: 7px 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+.threeicone a {
+    color: white;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+
+.project::before{
+ display: none;
+}
+
+    .headding {
+        text-align: center;
+    }
+
+    .blackbox2 h3 {
+
+        text-align: center;
+
+    }
+
+    .project {
+        padding: 15px 0px;
+        text-align: center;
+    }
+
+    .bighug {
+        text-align: center;
+    }
+    .bighug::before{
+        display: none;
+    }
+
+    .laptopimg img{
+        width: 100%;
+    }
+
+    .bighug .photo {
+        padding: 0px;
+    }
+
+    .teamimg {
+        text-align: center;
+        margin: 0;
+    }
+
+    .teamimg img{
+        width: 100%;
+    }
+
+    .team1::before{
+        display: none;
+    }
+    .people {
+        text-align: center;
+    }
+
+    .tiara {
+        text-align: center;
+    }
+
+    .onlyi {
+        text-align: center;
+    }
+
+    .hello {
+        text-align: center;
+    }
+
+    .hello img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .anna {
+        text-align: center;
+        padding: 10px 15px;
+    }
+
+    .labale1 {
+        text-align: center;
+    }
+
+    .labale1 img {
+        height: 100%;
+        width: 25%;
+    }
+
+    .cardmain::before{
+        display: none;
+    }
+    .team1::before{
+        display: none;
+    }
+    .address {
+        padding: 40px;
+    }
+
+    .footermain {
+        text-align: center;
+    }
+}
+
+@media (max-width: 475px) {
+
+    .nav2 ul{
+        display: block;
+        text-align: center;
+    }
+    .content {
+        padding: 0;
+    }
+
+    .tvcontent1::before {
+        top: 0;
+        left: 70%;
+    }
+
+    .tvcontent2::before {
+        top: 0;
+        left: 70%;
+    }
+
+    .tvcontent3::before {
+        top: 0;
+        right: 0;
+    }
+
+    .tvcontent4::before {
+        top: 0;
+        right: 0;
+    }
+
+    .uxdesign img{
+        width: 100%;
+    }
+
+    .blackboxmain {
+        padding: 0;
+    }
+
+    .project p {
+        padding: 0 15px;
+    }
+
+    .laptopimg {
+        text-align: center;
+    }
+
+    .laptopimg p {
+        width: 100%;
+    }
+
+    .teamimg{
+        margin: 0;
+    }
+
+    .button{
+        width: 100%;
+    }
+    .photo img {
+        height: 150px;
+    }
+
+    .counter{
+    }
+
+.lernimg{
+    text-align: center;
+}
+
+.blog{
+    padding: 0;
+}
+
+
+}
+
+
+@media (max-width: 320px) {
+
+
+    .nav2 ul{
+        display: block;
+        text-align: center;
+    }
+    .content {
+        padding: 0;
+    }
+
+    .tvcontent1::before {
+        top: 0;
+        left: 70%;
+    }
+
+    .tvcontent2::before {
+        top: 0;
+        left: 70%;
+    }
+
+    .tvcontent3::before {
+        top: 0;
+        right: 0;
+    }
+
+    .tvcontent4::before {
+        top: 0;
+        right: 0;
+    }
+
+    .uxdesign img{
+        width: 100%;
+    }
+
+    .blackboxmain {
+        padding: 0;
+    }
+
+    .project p {
+        padding: 0 15px;
+    }
+
+    .laptopimg {
+        text-align: center;
+    }
+
+    .laptopimg p {
+        width: 100%;
+    }
+
+    .teamimg{
+        margin: 0;
+    }
+
+    .button{
+        width: 100%;
+    }
+    .photo img {
+        height: 150px;
+    }
+
+    .counter{
+    }
+
+.lernimg{
+    text-align: center;
+}
+
+.blog{
+    padding: 0;
+}
+
+
+}
